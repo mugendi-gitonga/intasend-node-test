@@ -4,8 +4,6 @@ const path = require('path')
 const IntaSend = require('intasend-node');
 
 let intasend = new IntaSend(
-    // 'ISPubKey_test_2f428677-b735-4d08-8649-9ec1e41af374',
-    // 'ISSecretKey_test_561aeaa4-c2a6-43b7-ab49-746952a3d2f3',
     'ISPubKey_test_1dfc3eb3-96c1-4c4b-a200-992d30c43502',
     'ISSecretKey_test_4d769551-e9df-4eb0-99c0-87d9227ed033',
     true, // Test ? Set true for test environment
